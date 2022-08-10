@@ -1,5 +1,8 @@
 package net.fabricmc.example;
 
+import eu.pb4.polymer.ext.blocks.api.BlockModelType;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.Blocks;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -35,6 +38,15 @@ public class ItemRegister {
                         new Identifier("polymertest", "item/" + main + "_" + id)));
     }
 
+    public static void regKyberOre(BlockModelType type, String modelId) {
+        var id = new Identifier("test", modelId);
+        var block = Registry.register(Registry.BLOCK, id,
+                new KyberOre(FabricBlockSettings.copy(Blocks.DIAMOND_ORE), type, "block/" + modelId));
+
+        Registry.register(Registry.ITEM, id,
+                new KyberOreItem(new Item.Settings().group(ItemGroup.BUILDING_BLOCKS), block, "block/" + modelId));
+    }
+
     public static void register() {
 
         // Register Night vision Goggles.
@@ -68,6 +80,9 @@ public class ItemRegister {
         regSaberParts("kyber", "purple");
         regSaberParts("kyber", "yellow");
         regSaberParts("kyber", "orange");
+
+        // Register Ores
+        regKyberOre(BlockModelType.FULL_BLOCK, "kyber_ore");
     }
 
 }

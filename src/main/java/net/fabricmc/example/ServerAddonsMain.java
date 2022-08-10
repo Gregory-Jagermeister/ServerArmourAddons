@@ -15,6 +15,7 @@ public class ServerAddonsMain implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		PolymerRPUtils.markAsRequired();
 		PolymerRPUtils.addAssetSource("polymertest");
 		PolymerRPUtils.requestArmor(new Identifier("polymertest", "night_vision"));
 		ItemRegister.register();

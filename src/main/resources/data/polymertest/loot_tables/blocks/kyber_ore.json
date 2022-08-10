@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:block",
+    "pools": [{
+        "rolls": 1,
+        "entries": [{
+            "type": "minecraft:item",
+            "name": "test:kyber_blue"
+        }, {
+            "type": "minecraft:item",
+            "name": "test:kyber_red"
+        }, {
+            "type": "minecraft:item",
+            "name": "test:kyber_green"
+        }, {
+            "type": "minecraft:item",
+            "name": "test:kyber_purple"
+        }, {
+            "type": "minecraft:item",
+            "name": "test:kyber_orange"
+        }, {
+            "type": "minecraft:item",
+            "name": "test:kyber_yellow"
+        }],
+        "conditions": [{
+            "condition": "minecraft:survives_explosion"
+        }]
+    }]
+}
