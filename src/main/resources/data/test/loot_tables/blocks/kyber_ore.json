@@ -13,16 +13,13 @@
             "name": "test:kyber_green"
         }, {
             "type": "minecraft:item",
-            "name": "test:kyber_purple"
-        }, {
-            "type": "minecraft:item",
             "name": "test:kyber_orange"
         }, {
             "type": "minecraft:item",
+            "name": "test:kyber_purple"
+        }, {
+            "type": "minecraft:item",
             "name": "test:kyber_yellow"
-        }],
-        "conditions": [{
-            "condition": "minecraft:survives_explosion"
         }]
     }]
 }

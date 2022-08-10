@@ -1,0 +1,22 @@
+{
+    "block.test.kyber_ore": "Kyber Ore",
+    "item.test.kyber_blue": "Blue Kyber Crystal",
+    "item.test.kyber_red": "Red Kyber Crystal",
+    "item.test.kyber_yellow": "Yellow Kyber Crystal",
+    "item.test.kyber_green": "Green Kyber Crystal",
+    "item.test.kyber_purple": "Purple Kyber Crystal",
+    "item.test.kyber_orange": "Orange Kyber Crystal",
+
+    "item.test.saber_blue": "Blue Lightsaber",
+    "item.test.saber_red": "Red Lightsaber",
+    "item.test.saber_yellow": "Yellow Lightsaber",
+    "item.test.saber_green": "Green Lightsaber",
+    "item.test.saber_purple": "Purple Lightsaber",
+    "item.test.saber_orange": "Orange Lightsaber",
+
+    "item.test.night_vision_goggles": "Night Vision Goggles",
+    "item.test.fireproof_boots": "Hellfire Boots",
+    "item.test.fireproof_chestplate": "Hellfire Chestplate",
+    "item.test.fireproof_helmet": "Hellfire Helm",
+    "item.test.fireproof_leggings": "Hellfire Leggings",
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "test:saber_hilt"
+    },
+    "addition": {
+        "item": "test:kyber_purple"
+    },
+    "result": {
+        "item": "test:saber_purple"
+    }
+}
