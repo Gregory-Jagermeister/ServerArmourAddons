@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+        "test:seat_white",
+        "test:seat_black",
+        "test:seat_blue",
+        "test:seat_yellow",
+        "test:seat_red",
+        "test:seat_purple",
+        "test:seat_pink",
+        "test:seat_orange",
+        "test:seat_magenta",
+        "test:seat_lime",
+        "test:seat_light_gray",
+        "test:seat_light_blue",
+        "test:seat_green",
+        "test:seat_gray",
+        "test:seat_cyan",
+        "test:seat_brown"
+    ]
+}

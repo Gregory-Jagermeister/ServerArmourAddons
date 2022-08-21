@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "ExampleMixin",
+    "MixinLivingEntity"
   ],
   "injectors": {
     "defaultRequire": 1

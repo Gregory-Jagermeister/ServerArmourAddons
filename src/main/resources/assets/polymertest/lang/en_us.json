@@ -17,5 +17,21 @@
     "item.test.fireproof_chestplate": "Hellfire Chestplate",
     "item.test.fireproof_helmet": "Hellfire Helm",
     "item.test.fireproof_leggings": "Hellfire Leggings",
-    "item.test.saber_hilt": "Lightsaber Hilt"
+    "item.test.saber_hilt": "Lightsaber Hilt",
+    "block.test.seat_white": "White Seat",
+    "block.test.seat_black": "Black Seat",
+    "block.test.seat_blue": "Blue Seat",
+    "block.test.seat_brown": "Brown Seat",
+    "block.test.seat_cyan": "Cyan Seat",
+    "block.test.seat_green": "Green Seat",
+    "block.test.seat_light_gray": "Light Gray Seat",
+    "block.test.seat_light_blue": "Light Blue Seat",
+    "block.test.seat_lime": "Lime Seat",
+    "block.test.seat_magenta": "Magenta Seat",
+    "block.test.seat_orange": "Orange Seat",
+    "block.test.seat_pink": "Pink Seat",
+    "block.test.seat_purple": "Purple Seat",
+    "block.test.seat_red": "Red Seat",
+    "block.test.seat_yellow": "Yellow Seat",
+    "block.test.seat_gray": "Gray Seat"
 }
